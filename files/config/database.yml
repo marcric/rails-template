@@ -1,13 +1,13 @@
 development:
   adapter: postgresql
   username: postgres
-  password:
+  password: sysadmin
   database: PROJECT_development
 
 test:
   adapter: postgresql
   username: postgres
-  password:
+  password: sysadmin
   database: PROJECT_test
   min_messages: WARNING
 

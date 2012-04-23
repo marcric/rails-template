@@ -1,7 +1,7 @@
 puts "Commiting new rails app ... ".magenta
 
-git :add => '.'
-git :commit => "-aqm 'Commit new rails app.'"
+#git :add => '.'
+#git :commit => "-aqm 'Commit new rails app.'"
 
 puts "Removing unnecessary files ... ".magenta
 
@@ -16,6 +16,6 @@ inside "public" do
 	remove_file "robots.txt"
 end
 
-git :add => '.'
-git :commit => "-aqm 'Removed unnecessary files left over from initial app generation.'"
+#git :add => '.'
+#git :commit => "-aqm 'Removed unnecessary files left over from initial app generation.'"
 puts "\n"

@@ -45,9 +45,9 @@ puts "=========================================================\n"
 copy_static_file 'Gemfile'
 #apply_n :git
 apply_n :cleanup
-apply_n :rvm
+#apply_n :rvm
 apply_n :rspec # TODO: rspec nao rolou no projeto POL, add simplecov.
-# apply_n :postgresql # TODO: install pg gem, create default database, run db:migrate and add schema.rb
+apply_n :postgresql # TODO: install pg gem, create default database, run db:migrate and add schema.rb
 # apply_n :omniauth # TODO: add spec support files
 apply_n :default # TODO: add p80, add coverage no ignore, add permalink spec, colocar default do fakeweb sem conexao
 # TODO: extrair phone validator to gem
